@@ -1,17 +1,20 @@
 {
-  "name": "sum-simple-calculator",
-  "version": "2.0.4",
+  "name": "quickmaths-simple-calculator",
+  "version": "1.0.0",
   "description": "Create simple calculator with Typescript Node.js and Inquirer",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
-    "sum-simple-calculator": "index.js"
+    "quickmaths-simple-calculator": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^9.2.19"
   },
